@@ -125,7 +125,6 @@ def generate_text(paragraphs_count):
         return paragraph
 
     def tokens_to_string(tokens):
-        print len(tokens)
         string_result = tokens[0]
         for tk in tokens[1:]:
             if not is_punctuation(tk):
